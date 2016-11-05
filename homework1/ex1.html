@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+		<title>Hide paragraphs</title>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#hide").click(function(){
+					$("p:odd").hide("slow");
+					});
+				});
+		</script>		
+	</head>
+	<body>
+		<button id="hide">Click the button to hide paragraphs</button>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+		<p>This is a paragraph</p>
+	</body>
+</html>
