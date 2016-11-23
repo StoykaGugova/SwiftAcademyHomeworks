@@ -1,0 +1,28 @@
+body {
+	background-color:#E6E6FA;
+	margin-left:100px;
+	margin-right:100px;
+}
+img {
+	height:150px;
+	width:150px;
+	border: red;
+	position:relative;
+}
+.personal{
+	position:absolute;
+	left:300px;
+	top:50px;
+}
+.date {
+	float:left;
+	
+}
+.info {
+	float:right;
+	margin-left: 200px;
+	text-align:justified;
+}
+#highlight {
+	font-weight:bold;
+}

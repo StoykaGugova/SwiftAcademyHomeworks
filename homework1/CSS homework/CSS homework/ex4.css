@@ -1,0 +1,33 @@
+ul {
+	list-style-type: none;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	overflow:hidden;
+}
+li {
+    display: inline;
+}
+li a {
+	color: white;
+    text-align: center;
+	font-size: 24px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.current {
+	background-color:lime;
+}
+a:hover {
+	background-color:grey;
+}
+footer {
+	float:right;
+	text-decoration:overline;
+}

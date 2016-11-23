@@ -1,0 +1,27 @@
+body {
+	margin: 50px 150px;
+}
+img {
+	height: 50%;
+	width: 100%;
+}
+.fa-clock-o {
+	float:left;
+	color:green;
+}
+.fa-comment{
+	float:right;
+	color:grey;
+	opacity: 0,1;
+}
+article {
+	text-align:justified;
+}
+.end {
+	float:right;
+	font-size:20px;
+	background-color:yellowgreen;
+	width: 150px;
+	padding: 10px;
+}
+.end:after { content: '>>';}

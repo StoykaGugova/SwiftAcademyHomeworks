@@ -1,0 +1,32 @@
+<html>
+   <head>
+       <title>Login Page</title>	   
+   </head>
+<body>
+    <form name="Register" method="POST" action="">
+	    <p><strong>Pease fill in the infromation below to register: </strong></p>
+        <p>Username: <input type="text" name="username" required="required"></p>
+	    <p>Password: <input type="password" name="password" required></p>
+	    <p>Retype password: <input type="password" name="retype_password" required></p>
+        <p>Birthday: <input type="date" name="date"></p>
+		<p>Sex: 
+		    <input type="radio" name="gender" value="male" checked>Male</input>
+			<input type="radio" name="gender" value="female">Female</input>
+	    </p>
+	    <p>Home address: <input type="text" name="home_address"></p>
+	    <p>Work address: <input type="text" name="work_address"></p>
+	    <p>School name: <input type="text" name="school_name"></p>
+	    <p>Years of education: <input type="date" name="years_of_education"></p
+		<p>Phone number: <input type="tel" name="phone_number" required></p>
+		<p>Email: <input type="email" name="email" required></p>
+		<p>Additional Notes: </p>
+		<textarea name="notes" rows="5" cols="20"></textarea></p>
+		
+		<p><input type="checkbox" name="terms">Accept terms and conditions</p>	
+			   
+	   <input type="button" onclick="alert('You\'ve been registered')" value="Register!">
+   	   <input type="image" src="mail.png" name="picture" alt="Submit" />
+
+	</form>   
+</body>
+</html>

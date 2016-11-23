@@ -1,0 +1,16 @@
+body {
+	background: url("HomePage_Registration.jpg") no-repeat fixed;
+	margin: 70px 500px;
+	opacity:0,5;
+	font-size: 20px;
+}
+.right {
+	float:right;
+}
+input {
+	font-family: Verdana;
+	font-weight: bold
+}
+input:hover {
+	background-color:#f5f5f5;
+}
